@@ -1,3 +1,3 @@
 "use strict";
-var name = prompt("Как ваше имя?", "");
+var name = prompt("Как ваше имя?", " ");
 alert("Вас зовут " + name + "!")
