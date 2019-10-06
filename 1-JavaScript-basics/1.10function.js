@@ -21,3 +21,8 @@ function showPow() {
 function pow(x, n) {
     return n > 0 ? alert(Math.pow(x, n)) : showPow();
 }
+let ask = (question, yes, no) => confirm(question) ? yes() : no();
+ask('Вы согласны?',
+    () => alert('Вы согласились'),
+    () => alert('Вы отказались')
+);
